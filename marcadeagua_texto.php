@@ -4,7 +4,7 @@ function marcadeagua_texto_ttf($imagen, $texto, $copia = true)
 {
 	list($ancho, $alto, $tipo) = getimagesize($imagen);
 
-	switch ( $tipo ){
+	switch ( $tipo ) {
 		case IMAGETYPE_JPEG: //image/jpg image/jpeg
 			$nueva_imagen = imagecreatefromjpeg( $imagen );
 			break;
