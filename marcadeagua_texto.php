@@ -61,5 +61,3 @@ function marcadeagua_texto_ttf($imagen, $texto, $copia = true)
 
 	imagedestroy($nueva_imagen);
 }
-
-?>
